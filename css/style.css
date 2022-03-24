@@ -1,0 +1,93 @@
+
+
+
+body{
+    background-color: green;
+    /* background-image: url(../img/WF12151S-LR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+
+.cell{
+height: 40px;
+width: 40px;
+background-color: red;
+border-radius: 4px;
+}
+
+.msg{
+    background-color: rgb(235, 217, 217);
+    font-family:'Courier New', Courier, monospace;
+    height: 20px;
+    width: 100px;
+    margin-left: auto;
+    border-radius: 9%;
+    color: blue;
+    text-align: center;
+    font-family: monospace;
+    background-color: red;
+}
+h1{
+    margin:0 auto;
+    /* justify-content: center;
+    justify-items: center; */
+    text-align: center;
+    
+}
+
+.smily{
+    border-radius: 9%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: green;
+    border-style: hidden;
+    font-size: 30px;
+}
+
+.level-buttons{
+    text-align: center;
+}
+
+.level-buttons button{
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.count-up-timer{
+background-color: rgb(66, 11, 192);
+height: 20px;
+width: 60px;
+margin: auto;
+border-radius: 10%;
+text-align: center;
+}
+
+.hint-buttons{
+   text-align: center;
+}
+
+.hint-buttons button{
+    cursor: pointer; 
+}
+.safe-button{
+    height: 30px;
+    width: 90px;
+    margin-left: 70%;
+}
+
+
+.win{
+background-color: rgb(153, 24, 204);
+height: 50px;
+width: 50px;
+font-size: large;
+text-align: center;
+border-radius: 10%;
+margin:auto;
+display: none;
+}

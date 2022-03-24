@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+    <h1>Mine Sweeper</h1>
+    <div>
+        <button class="smily" onclick="Reset()">😀</button>
+    </div>
+    <div class="hint-buttons">
+        <button class="hint" onclick="getHint(this)">🕯</button>
+        <button class="hint" onclick="getHint(this)">🕯</button>
+        <button class="hint" onclick="getHint(this)">🕯</button>
+        <button class="safe-button" onclick="safeClickOp()">SafeClick:<span>3</span></button>
+    </div>
+    <div class="count-up-timer"> 00:00 </div>
+
+
+    <msg class="msg"><span class="span"></span> Lives Left</msg>
+    <modal class="win"> </modal>
+
+    <table oncontextmenu="prevent(event)"></table>
+
+    <div class="level-buttons">
+        <button onclick="pickNum(4,2)"> Easy </button>
+        <button onclick="pickNum(8, 12)"> Hard </button>
+        <button onclick="pickNum(12,30)"> Exetreme</button>
+        <script src="js/main.js"></script>
+    </div>
+
+    <script src="js/mine-sweeper.js"></script>
+</body>
+
+
+
+</html>
